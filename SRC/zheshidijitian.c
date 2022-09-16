@@ -4,7 +4,7 @@ int main()
     int day,month,year,sum;
     printf("请依次输入年、月、日：");
     scanf("%d,%d,%d",&year,&month,&day);    //年月日用逗号隔开
-    switch(month)                           //
+    switch(month)                           //计算该月之前天数
     {
         case 1:sum=0;break;
         case 2:sum=31;break;
@@ -20,7 +20,7 @@ int main()
         case 12:sum=334;break;
         default:printf("data error");break;
     }
-    if(year%400==0&&month>2){
+    if(year%400==0&&month>2){               //处理闰年
         sum=sum+day+1;
     }
     else{
