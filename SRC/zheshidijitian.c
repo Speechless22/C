@@ -20,7 +20,7 @@ int main()
         case 12:sum=334;break;
         default:printf("data error");break;
     }
-    if(year%400==0&&month>2){               //处理闰年
+    if(year%400==0||(year%4==0&&year%100!=0)&&month>2){               //处理闰年
         sum=sum+day+1;
     }
     else{
