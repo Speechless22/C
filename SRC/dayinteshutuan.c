@@ -1,3 +1,4 @@
+//打印特殊图案
 #include<stdio.h>
 int main()
 {

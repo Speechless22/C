@@ -1,3 +1,4 @@
+//计算条件提成
 #include<stdio.h>
 int main()
 {

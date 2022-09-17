@@ -1,3 +1,4 @@
+//数字排列
 #include<stdio.h>
 int main()
 {

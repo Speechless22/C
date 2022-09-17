@@ -1,3 +1,4 @@
+//某天是某年的第几天
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,4 @@
+//打印楼梯
 #include<stdio.h>
 int main()
 {
