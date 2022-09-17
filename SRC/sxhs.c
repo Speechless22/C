@@ -3,7 +3,7 @@
 int main()
 {
     int a, b, c, n;
-    printf("result is:");
+    printf("水仙花数：");
     for( n=100; n<1000; n++ )  /*整数的取值范围*/
     {
         a = n / 100;
