@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 //当celsius=0,20,40,...,300时，分别打印华氏温度与摄氏温度对照表
 main()
 {

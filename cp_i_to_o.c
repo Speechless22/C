@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 //复制输入到输出
 main()
 {
