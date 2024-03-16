@@ -1,8 +1,9 @@
 #include <stdio.h>
-//复制输入到输出
-main()
+
+int main() // 复制输入到输出
 {
     int c;
+    
     while ((c = getchar()) != EOF)
     {
         putchar(c);
